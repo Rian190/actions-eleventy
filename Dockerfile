@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:lts-alpine3.16
 RUN npm config set unsafe-perm true
 RUN npm install -g @11ty/eleventy
 RUN npm install
